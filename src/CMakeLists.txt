@@ -16,7 +16,7 @@ if (NOT TARGET sparkfun_qwiic_rfid)
 
     # libraries this library depends on. 
     target_link_libraries(sparkfun_qwiic_rfid INTERFACE
-        sparkfun_qwiic_i2c
+        sparkfun_qwiic_core
     	pico_stdlib
     	hardware_i2c
     )
